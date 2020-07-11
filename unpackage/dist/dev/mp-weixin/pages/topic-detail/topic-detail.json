@@ -1,0 +1,9 @@
+{
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "topic-info": "/components/topic/topic-info",
+    "swiper-tab": "/components/index/swiper-tab-head",
+    "load-more": "/components/common/load-more",
+    "common-list": "/components/common/common-list"
+  }
+}

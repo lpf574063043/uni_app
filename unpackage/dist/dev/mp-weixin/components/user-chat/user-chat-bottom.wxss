@@ -1,0 +1,27 @@
+
+.user-chat-bottom.data-v-4681d721{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 120rpx;
+	padding: 0 20rpx;
+	border-top: 1rpx solid #EEEEEE;
+
+	background-color: #007AFF;
+}
+.user-chat-bottom>input.data-v-4681d721{
+	background-color: #F7F7F7;
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+	margin-right: 20rpx;
+	padding: 10rpx 20rpx;
+	border-radius: 10rpx;
+}
+.user-chat-bottom>view.data-v-4681d721{
+	width: 80rpx;
+	font-size: 45rpx;
+	color: #000000;
+}	
+

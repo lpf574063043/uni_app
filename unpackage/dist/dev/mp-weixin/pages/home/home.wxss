@@ -1,0 +1,13 @@
+
+.home-adv {
+	padding: 20rpx;
+}
+.home-adv>image {
+	border-radius: 20rpx;
+	max-height: 200rpx;
+	width: 100%;
+}
+.home-list {
+	padding: 20rpx;
+}
+

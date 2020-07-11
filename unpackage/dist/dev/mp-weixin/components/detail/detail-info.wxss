@@ -1,0 +1,96 @@
+.common-list-l.data-v-14d167fa{
+	-webkit-flex-shrink: 0;
+	        flex-shrink: 0;
+}
+.common-list-l>image.data-v-14d167fa{
+	width: 90rpx;
+	max-height: 90rpx;
+	border-radius: 100%;
+}
+.common-list.data-v-14d167fa{
+	padding: 20rpx;
+}
+.common-list-r>view:nth-child(3)>image.data-v-14d167fa{
+	width: 100%;
+	border-radius: 30rpx;
+}
+.common-list-r.data-v-14d167fa{
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+	margin-left: 15rpx;
+	border-bottom: 1rpx solid #EEEEEE;
+	padding-bottom: 10rpx;
+}
+.common-list-r>view:nth-child(1)>view.data-v-14d167fa:first-child{
+	color: #999999;
+	font-size: 28rpx;
+}
+.common-list-r>view:nth-child(1)>view.data-v-14d167fa:last-child{
+	background-color: #EEEEEE;
+	padding: 0 10rpx;
+	font-size: 26rpx;
+}
+.common-list-r>view.data-v-14d167fa:nth-child(2){
+	font-size: 32rpx;
+	padding: 12rpx 0;
+}
+.common-list-r>view.data-v-14d167fa:nth-child(3){
+	position: relative;
+	margin-bottom: 10rpx;
+}
+.common-list-r>view:nth-child(4)>view.data-v-14d167fa{
+	color: #BBBBBB;
+}
+.common-list-r>view:nth-child(4)>view:nth-child(2)>view.data-v-14d167fa{
+	margin-left: 10rpx;
+	padding-left: 5rpx;
+}
+.common-list-play.data-v-14d167fa{
+	position: absolute;
+	font-size: 100rpx;
+	color: #EEEEEE;
+}
+.common-list-play-info.data-v-14d167fa{
+	position: absolute;
+	bottom: 10rpx;
+	right: 15rpx;
+	color: #EEEEEE;
+	background-color: rgba(51,51,51,.73);
+	border-radius: 20rpx;
+	padding: 0 10rpx;
+	font-size: 20rpx;
+}
+.common-list-share.data-v-14d167fa{
+	background-color: #EEEEEE;
+	width: 100%;
+	padding: 10rpx;
+	border-radius: 10rpx;
+}
+.common-list-share>image.data-v-14d167fa{
+	width: 200rpx;
+	max-height: 150rpx;
+	margin-right: 10rpx;
+}
+.common-list-r.data-v-14d167fa {
+	border-bottom: 0;
+}
+.common-list.data-v-14d167fa {
+	border-bottom: 1rpx solid #EEEEEE;
+}
+.ommon-list-r-time.data-v-14d167fa {
+	padding: 15rpx 0;
+	color: #CCCCCC !important;
+	font-size: 25rpx;
+	background: #FFFFEF !important;
+}
+.common-list-r>view:nth-child(1)>view:nth-child(1)>view.data-v-14d167fa:first-child {
+	color: #999999;
+	font-size: 28rpx;
+}
+.common-list-r>view:nth-child(1)>view:nth-child(1)>view.data-v-14d167fa:last-child {
+	background-color: #EEEEEE;
+	padding: 0 10rpx;
+	font-size: 26rpx;
+}
+

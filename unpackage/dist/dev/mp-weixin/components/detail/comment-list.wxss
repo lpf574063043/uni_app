@@ -1,0 +1,19 @@
+
+.u-comment.data-v-0c44492c{
+	padding: 0 20rpx;
+}
+.u-comment-child.data-v-0c44492c{
+	padding: 20rpx;
+	background-color: #BBBBBB;
+	border-bottom: 1rpx solid #EEEEEE;
+	box-sizing: border-box;
+	margin: 0;
+	margin-left: 70rpx;
+	width: auto;
+}
+.u-comment-title.data-v-0c44492c{
+	padding: 20rpx;
+	font-size: 30rpx;
+	font-weight: bold;
+}	
+

@@ -1,0 +1,48 @@
+
+.addinput-foot{
+	background: #FFFFFF;
+	position: fixed;bottom: 0;left: 0;right: 0;height: 88rpx;border-top:1rpx solid #DDDDDD
+}
+.addinput-foot view{
+	height: 100%;
+}
+.addinput-foot-btn{
+	background: #F4F4F4;
+}
+.kejian{
+	margin-left: 100rpx;
+}
+.uni-textarea{
+	border: 1rpx solid #EEEEEE;
+}
+.zezhao{
+	width: 600rpx;
+	height: 500rpx;
+	z-index: 10;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin-top: -400rpx;
+	margin-left: -320rpx;
+	background-color: #0A98D5;
+	border-radius: 40rpx;
+	padding: 20rpx;
+}
+.mtitle{
+	color: #990055;
+	text-align: center;
+	font-size: 50rpx;
+	font-weight: bold;
+}
+.mtext{
+	color: #FFFFFF;
+	font-size: 30rpx;
+	margin: 20rpx 0;
+}
+.mtai{
+	position: fixed;
+	top: 0;left: 0;right: 0;bottom: 0;
+	background-color: rgba(51,51,51,0.61);
+	z-index: 9;
+}
+

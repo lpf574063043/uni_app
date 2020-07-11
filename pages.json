@@ -1,0 +1,377 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"app-plus":{
+					"scrollIndicator":"none",//隐藏滚动条
+					"bounce":"none",
+					"titleNView":{
+						"searchInput":{
+							"align":"center",
+							"backgroundColor":"#f7f7f7",
+							"borderRadius":"4px",
+							"placeholder":"搜索趣事",
+							"placeholderColor":"#cccccc",
+							"disabled":true
+						},
+						"buttons":[
+							{
+								"color":"#ff9619",
+								"colorPressed":"#cccccc",
+								"float":"left",
+								"fontSize":"22px",
+								"fontSrc":"/static/iconfont.ttf",
+								"text":"\ue607"
+							},
+							{
+								"color":"#000000",
+								"colorPressed":"#cccccc",
+								"float":"right",
+								"fontSize":"22px",
+								"fontSrc":"/static/iconfont.ttf",//一定要放在静态目录下
+								"text":"\ue670"
+							}
+						]
+					}
+				}
+			}
+		}
+	    ,{
+            "path" : "pages/news/news",
+            "style" : {
+				"app-plus":{
+					"titleNView":false,
+					"bounce":"none"
+				}
+			}
+        }
+        ,{
+            "path" : "pages/home/home",
+            "style" : {
+				"navigationBarTitleText":"我的",
+				"app-plus":{
+					"scrollIndicator":"none",
+					"bounce":"none",
+					"titleNView":{
+						"buttons":[
+							{
+								"type":"menu"
+							}
+						]
+					}
+				}
+			}
+        }
+        ,{
+            "path" : "pages/paper/paper",
+            "style" : {
+				"navigationBarTitleText":"聊天消息",
+				"enablePullDownRefresh":true,
+				"app-plus":{
+					"scrollIndicator":"none",
+					"bounce":"none",
+					"titleNView":{
+						"buttons":[
+							{
+								"color":"#000000",
+								"colorPressed":"#cccccc",
+								"float":"left",
+								"fontSize":"22px",
+								"fontSrc":"/static/iconfont.ttf",
+								"text":"\ue613"
+							},
+							{
+								"color":"#000000",
+								"colorPressed":"#cccccc",
+								"float":"right",
+								"fontSize":"22px",
+								"fontSrc":"/static/iconfont.ttf",//一定要放在静态目录下
+								"text":"\ue606"
+							}
+						]
+					}
+				}
+			}
+        }
+        ,{
+            "path" : "pages/search/search",
+            "style" : {
+				"enablePullDownRefresh":true,
+				"app-plus":{
+					"scrollIndicator":"none",//隐藏滚动条
+					"bounce":"none",
+					"titleNView":{
+						"searchInput":{
+							"align":"left",
+							"backgroundColor":"#f7f7f7",
+							"borderRadius":"4px",
+							"placeholder":"搜索趣事",
+							"placeholderColor":"#cccccc",
+							"disabled":false
+						},
+						"buttons":[
+							{
+								"color":"#000000",
+								"colorPressed":"#cccccc",
+								"float":"right",
+								"fontSize":"16px",
+								"text":"取消"
+							}
+						]
+					}
+				}
+			}
+        }
+        ,{
+            "path" : "pages/add-input/add-input",
+            "style" : {
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+        }
+        ,{
+            "path" : "pages/topic-nav/topic-nav",
+            "style" : {
+				"navigationBarTitleText":"话题分类",
+				"app-plus":{
+					"bounce":"none"
+				}
+			}
+        }
+        ,{
+            "path" : "pages/topic-detail/topic-detail",
+            "style" : {
+				"enablePullDownRefresh":true,
+				"app-plus":{
+					"scrollIndicator":"none",
+					"titleNView":{
+						"type":"transparent",
+						"buttons":[
+							{
+								"type":"menu"
+							}
+						]
+					}
+				}
+			}
+        }
+        ,{
+            "path" : "pages/user-list/user-list",
+            "style" : {
+				"autoBackButton":false,
+				"app-plus":{
+					"animationType":"slide-in-left",
+					"scrollIndicator":"none",//隐藏滚动条
+					"bounce":"none",
+					"titleNView":{
+						"autoBackButton":false,
+						"searchInput":{
+							"align":"left",
+							"backgroundColor":"#f7f7f7",
+							"borderRadius":"4px",
+							"placeholder":"搜索好友",
+							"placeholderColor":"#cccccc",
+							"disabled":true
+						},
+						"buttons":[
+							{
+								"color":"#000000",
+								"colorPressed":"#cccccc",
+								"float":"right",
+								"fontSize":"16px",
+								"text":"取消"
+							}
+						]
+					}
+				}
+			}
+        }
+        ,{
+            "path" : "pages/user-chat/user-chat",
+            "style" : {
+				"navigationBarTitleText":"聊天页",
+				"app-plus":{
+					"titleNView":{
+						"buttons":[
+							{
+								"color":"#000000",
+								"colorPressed":"#cccccc",
+								"float":"right",
+								"fontSize":"22px",
+								"fontSrc":"/static/iconfont.ttf",//一定要放在静态目录下
+								"text":"\ue613"
+							}
+						]
+					}
+				}
+			}
+        }
+        ,{
+            "path" : "pages/detail/detail",
+            "style" : {
+				"navigationBarTitleText":"详情页",
+				"app-plus":{
+					"scrollIndicator":"none",
+					"bounce":"none",
+					"titleNView":{
+						"buttons":[
+							{
+								"type":"menu"
+							}
+						]
+					}
+				}
+			}
+        }
+        ,{
+            "path" : "pages/user-set/user-set",
+            "style" : {
+				"navigationBarTitleText":"设置"
+			}
+        }
+        ,{
+            "path" : "pages/user-set-repasswrod/user-set-repasswrod",
+            "style" : {
+				"navigationBarTitleText":"修改密码",
+				"app-plus":{
+					"scrollIndicator":"none"
+				}
+			}
+        }
+        ,{
+            "path" : "pages/user-set-email/user-set-email",
+            "style" : {
+				"navigationBarTitleText":"绑定邮箱",
+				"app-plus":{
+					"scrollIndicator":"none"
+				}
+			}
+        }
+        ,{
+            "path" : "pages/user-set-userinfo/user-set-userinfo",
+            "style" : {
+            	"navigationBarTitleText":"资料编辑",
+            	"app-plus":{
+            		"scrollIndicator":"none"
+            	}
+            }
+        }
+        ,{
+            "path" : "pages/user-set-help/user-set-help",
+            "style" : {
+            	"navigationBarTitleText":"意见反馈",
+            	"app-plus":{
+            		"scrollIndicator":"none"
+            	}
+            }
+        }
+        ,{
+            "path" : "pages/user-set-about/user-set-about",
+            "style" : {
+            	"navigationBarTitleText":"关于我们",
+            	"app-plus":{
+            		"scrollIndicator":"none"
+            	}
+            }
+        }
+        ,{
+            "path" : "pages/login/login",
+            "style" : {
+            	"app-plus":{
+            		"titleNView":false,
+					"bounce":"none",
+					"scrollIndicator":"none"
+            	}
+            }
+        }
+        ,{
+            "path" : "pages/user-space/user-space",
+            "style" : {
+				"navigationBarTitleText":"个人空间",
+				"app-plus":{
+					"scrollIndicator":"none",
+					"bounce":"none",
+					"titleNView":{
+						"type":"transparent",
+						"buttons":[
+							{
+								"type":"menu"
+							}
+						]
+					}
+				}
+			}
+        }
+        ,{
+            "path" : "pages/user-bind-phone/user-bind-phone",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/user-safe/user-safe",
+            "style" : {
+				"navigationBarTitleText":"账号与安全"
+			}
+        }
+        ,{
+            "path" : "pages/user-feedback/user-feedback",
+            "style" : {
+				"navigationBarTitleText":"意见反馈"
+			}
+        }
+        ,{
+            "path" : "pages/user-history/user-history",
+            "style" : {
+				"navigationBarTitleText":"浏览历史",
+				"app-plus":{
+					"titleNView":{
+						"buttons":[
+							{
+								"type":"close"
+							}
+						]
+					}
+				}
+			}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "趣事百科",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#FFFFFF"
+	},
+	"tabBar":{
+		"backgroundColor":"#FFFFFF",
+		"color":"#b5b5b5",
+		"borderStyle":"black",
+		"selectedColor":"#fee42b",
+		"list":[
+			{
+				"pagePath":"pages/index/index",
+				"text":"趣事",
+				"iconPath":"/static/imges/shouye.png",
+				"selectedIconPath":"/static/imges/shouye1.png"
+			},
+			{
+				"pagePath":"pages/news/news",
+				"text":"动态",
+				"iconPath":"/static/imges/dongtai.png",
+				"selectedIconPath":"/static/imges/dongtai1.png"
+			},
+			{
+				"pagePath":"pages/paper/paper",
+				"text":"聊天",
+				"iconPath":"/static/imges/liaotian.png",
+				"selectedIconPath":"/static/imges/liaotian1.png"
+			},
+			{
+				"pagePath":"pages/home/home",
+				"text":"我的",
+				"iconPath":"/static/imges/home.png",
+				"selectedIconPath":"/static/imges/home1.png"
+			}
+		]
+	}
+}

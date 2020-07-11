@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "聊天消息",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "paper-list": "/components/paper/paper-list",
+    "load-more": "/components/common/load-more",
+    "paper-left-popup": "/components/paper/paper-left-popup"
+  }
+}

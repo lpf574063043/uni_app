@@ -1,0 +1,21 @@
+
+.cell-pd.data-v-b9d72952 {
+	padding: 22rpx 30rpx;
+}
+.list-pd.data-v-b9d72952 {
+	margin-top: 50rpx;
+}
+.icon-cuowu.data-v-b9d72952{
+	position: absolute;
+	right: 0;
+	top: 0;
+	background-color: #000000;
+	color: #FFFDEF;
+	z-index: 1;
+	padding: 2rpx 10rpx;
+	border-radius: 10rpx;
+}
+.uni-uploader__file.data-v-b9d72952{
+	position: relative;
+}	
+

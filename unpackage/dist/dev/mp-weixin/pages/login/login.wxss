@@ -1,0 +1,87 @@
+
+.loginhead{
+	width: 80%;
+	max-height: 400rpx;
+}
+.icon-cuowu{
+	position: fixed;
+	top: 30rpx;
+	left: 30rpx;
+	font-size: 50rpx;
+	font-weight: bold;
+	color: #000000;
+}
+.user-set-btn{
+	width: 100%;
+	margin: 20rpx 0;
+	background-color: #ffe933;
+	color: #000000;
+}
+.uni-input{
+	font-size: 30rpx;
+	border-bottom: 1rpx solid #F4F4F4;
+	margin-bottom: 20rpx;
+}
+.user-set-btn-disable{
+	background-color: #F4F4F4 !important;
+	border: 1rpx solid #EEEEEE !important;
+	color: #909090 !important;
+}
+.login-padding{
+	padding: 20rpx 0;
+}
+.login-font-color{
+	color: #BBBBBB;
+}
+.other-login-title{
+	position: relative;
+}
+.other-login-title::before,.other-login-title::after{
+	content: "";
+	position: absolute;
+	background-color: #BBBBBB;
+	height: 3rpx;
+	width: 100rpx;
+	top: 50%;
+}
+.other-login-title::before{
+	left: 25%;
+}
+.other-login-title::after{
+	right: 25%;
+}
+.login-input-box{
+	position: relative;
+}
+.forget-input{
+	padding-right: 150rpx;
+}
+.forget{
+	position: absolute;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	height: 100%;
+	width: 150rpx;
+}
+.phone-input{
+	padding-left: 50rpx;
+	margin-left: 20rpx;
+}
+.phone{
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	height: 100%;
+	width: 50rpx;
+	font-weight: bold;
+}
+.yanzhengma>view{
+	background-color: #EEEEEE;
+	border-radius: 10rpx;
+	font-size: 25rpx;
+	width: 100%;
+	padding: 15rpx 0;
+}
+

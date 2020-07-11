@@ -1,0 +1,67 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/news/news",
+    "pages/home/home",
+    "pages/paper/paper",
+    "pages/search/search",
+    "pages/add-input/add-input",
+    "pages/topic-nav/topic-nav",
+    "pages/topic-detail/topic-detail",
+    "pages/user-list/user-list",
+    "pages/user-chat/user-chat",
+    "pages/detail/detail",
+    "pages/user-set/user-set",
+    "pages/user-set-repasswrod/user-set-repasswrod",
+    "pages/user-set-email/user-set-email",
+    "pages/user-set-userinfo/user-set-userinfo",
+    "pages/user-set-help/user-set-help",
+    "pages/user-set-about/user-set-about",
+    "pages/login/login",
+    "pages/user-space/user-space",
+    "pages/user-bind-phone/user-bind-phone",
+    "pages/user-safe/user-safe",
+    "pages/user-feedback/user-feedback"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "趣事百科",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#FFFFFF"
+  },
+  "tabBar": {
+    "backgroundColor": "#FFFFFF",
+    "color": "#b5b5b5",
+    "borderStyle": "black",
+    "selectedColor": "#fee42b",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "趣事",
+        "iconPath": "/static/imges/shouye.png",
+        "selectedIconPath": "/static/imges/shouye1.png"
+      },
+      {
+        "pagePath": "pages/news/news",
+        "text": "动态",
+        "iconPath": "/static/imges/dongtai.png",
+        "selectedIconPath": "/static/imges/dongtai1.png"
+      },
+      {
+        "pagePath": "pages/paper/paper",
+        "text": "聊天",
+        "iconPath": "/static/imges/liaotian.png",
+        "selectedIconPath": "/static/imges/liaotian1.png"
+      },
+      {
+        "pagePath": "pages/home/home",
+        "text": "我的",
+        "iconPath": "/static/imges/home.png",
+        "selectedIconPath": "/static/imges/home1.png"
+      }
+    ]
+  },
+  "permission": {},
+  "usingComponents": {}
+}

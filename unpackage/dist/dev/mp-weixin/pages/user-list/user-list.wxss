@@ -1,0 +1,12 @@
+
+.nothing{
+	position: fixed;
+	top: 45%;
+	left: 15%;
+	color: red;
+	font-size: 50rpx;
+}
+.body{
+	padding: 0 20rpx;
+}
+

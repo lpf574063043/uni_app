@@ -1,0 +1,8 @@
+{
+  "autoBackButton": false,
+  "usingComponents": {
+    "user-list": "/components/user-list/user-list",
+    "swiper-tab": "/components/index/swiper-tab-head",
+    "load-more": "/components/common/load-more"
+  }
+}

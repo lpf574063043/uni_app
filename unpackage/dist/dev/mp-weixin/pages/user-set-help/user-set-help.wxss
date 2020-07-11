@@ -1,0 +1,23 @@
+
+.user-set-btn{
+	width: 100%;
+	margin: 20rpx 0;
+	background-color: #ffe933;
+	color: #000000;
+}
+.user-set-btn-disable{
+	background-color: #F4F4F4 !important;
+	border: 1rpx solid #EEEEEE !important;
+	color: #909090 !important;
+}
+.body{
+	padding: 20rpx;
+}
+.content {
+	padding: 15px;
+	font-size: 14px;
+	line-height: 20px;
+	background-color: #FFFFFF;
+	color: #666;
+}
+

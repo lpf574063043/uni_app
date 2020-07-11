@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "个人空间",
+  "usingComponents": {
+    "user-space-head": "/components/user-space/user-space-head"
+  }
+}

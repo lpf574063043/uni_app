@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "资料编辑",
+  "usingComponents": {
+    "simple-address": "/common/snajichengshiliandong/simple-address/simple-address"
+  }
+}

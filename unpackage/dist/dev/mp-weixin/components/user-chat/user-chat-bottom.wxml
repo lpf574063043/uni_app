@@ -1,0 +1,1 @@
+<view class="user-chat-bottom u-f-ac data-v-4681d721"><input type="text" placeholder="文明发言" data-event-opts="{{[['input',[['__set_model',['','text','$event',[]]]]]]}}" value="{{text}}" bindinput="__e" class="data-v-4681d721"/><view data-event-opts="{{[['tap',[['submit',['$event']]]]]}}" class="u-f-ajc icon iconfont icon-zhifeiji data-v-4681d721" bindtap="__e"></view></view>

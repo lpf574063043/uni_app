@@ -1,0 +1,17 @@
+
+.body{
+	padding: 20rpx;
+}
+.user-set-about-t>image{
+	width: 100%;
+	margin-bottom: 20rpx;
+	max-height: 400rpx;
+	margin-top: 30rpx;
+}
+.user-set-about-t{
+	padding: 20rpx 0;
+}
+.user-set-about-t>view{
+	color: #CCCCCC;
+}
+
